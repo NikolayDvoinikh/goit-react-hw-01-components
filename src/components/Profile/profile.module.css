@@ -1,0 +1,30 @@
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.description {
+  outline: 2px solid red;
+}
+.avatar {
+  display: block;
+}
+.name {
+  font-style: 20px;
+}
+.tag {
+  background-color: aquamarine;
+}
+.location {
+  font-size: 16px;
+}
+.stats {
+  font-style: 12px;
+  list-style: none;
+}
+.label {
+  font-style: 20px;
+}
+.quantity {
+  font-style: 20px;
+}
