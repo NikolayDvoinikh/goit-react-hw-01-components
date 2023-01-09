@@ -4,7 +4,7 @@
   justify-content: center;
   background-color: #ff6347;
   border-radius: 5px;
-  padding: 50px 50px 0;
+  padding: 50px 0 0;
 
   flex-direction: column;
 }
@@ -40,15 +40,24 @@
   display: flex;
   padding: 0;
   width: 100%;
-  border-color: 1px solid gray;
+  margin: 0;
   justify-content: space-between;
 }
 
+.stats li {
+  border: 1px solid gray;
+  width: calc(100% / 3);
+  height: 100%;
+  padding: 20px;
+}
+
 .label {
+  text-align: center;
   font-size: 12px;
   display: block;
 }
 .quantity {
   font-size: 12px;
   display: block;
+  text-align: center;
 }
