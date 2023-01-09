@@ -12,8 +12,8 @@ export default function User({ username, tag, location, avatar, stats }) {
 
       <ul className={css.stats}>
         <li>
-          <span className={css.label}>{stats.followers}</span>
-          <span className={css.quantity}>1000</span>
+          <span className={css.label}>Followers</span>
+          <span className={css.quantity}>{stats.followers}</span>
         </li>
         <li>
           <span className={css.label}>Views</span>

@@ -2,29 +2,53 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #ff6347;
+  border-radius: 5px;
+  padding: 50px 50px 0;
+
+  flex-direction: column;
 }
 .description {
   outline: 2px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 300px;
+  height: auto;
 }
 .avatar {
   display: block;
+  overflow: hidden;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
 }
 .name {
-  font-style: 20px;
+  font-size: 16px;
 }
 .tag {
   background-color: aquamarine;
+  font-size: 12px;
 }
 .location {
-  font-size: 16px;
+  font-size: 12px;
 }
 .stats {
-  font-style: 12px;
+  font-size: 12px;
   list-style: none;
+  display: flex;
+  padding: 0;
+  width: 100%;
+  border-color: 1px solid gray;
+  justify-content: space-between;
 }
+
 .label {
-  font-style: 20px;
+  font-size: 12px;
+  display: block;
 }
 .quantity {
-  font-style: 20px;
+  font-size: 12px;
+  display: block;
 }
