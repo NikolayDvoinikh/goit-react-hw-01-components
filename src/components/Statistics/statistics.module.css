@@ -1,0 +1,21 @@
+.statistics {
+  color: red;
+}
+.title {
+  color: aqua;
+}
+.stat_list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: yellow;
+}
+.item {
+  border: 2px solid black;
+}
+.label {
+  color: blueviolet;
+}
+.percentage {
+  color: brown;
+}
