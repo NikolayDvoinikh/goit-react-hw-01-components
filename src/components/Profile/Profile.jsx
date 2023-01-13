@@ -35,12 +35,3 @@ User.propTypes = {
   avatar: PropTypes.string,
   stats: PropTypes.objectOf(PropTypes.number),
 };
-
-// username — имя пользователя
-// tag — тег в социальной сети без @
-// location — город и страна
-// avatar — ссылка на изображение
-// stats — объект с информацией об активности
-
-// Пример использования
-// import user from 'path/to/user.json;
