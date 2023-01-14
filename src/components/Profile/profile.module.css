@@ -1,41 +1,57 @@
 .profile {
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #ff6347;
   border-radius: 5px;
-  padding: 50px 0 0;
-
-  flex-direction: column;
-}
-.description {
-  outline: 2px solid red;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 40px 0 0;
+  border: 2px solid gainsboro;
   flex-direction: column;
   width: 300px;
+  background-color: #ffffff;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
   height: auto;
 }
 .avatar {
   display: block;
   overflow: hidden;
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
+  border: 1px solid burlywood;
+  margin-bottom: 30px;
 }
 .name {
-  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: 500;
 }
 .tag {
-  background-color: aquamarine;
-  font-size: 12px;
+  margin-top: 0;
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: rgb(199, 206, 206);
+  font-weight: 500;
 }
 .location {
-  font-size: 12px;
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 35px;
+  color: rgb(199, 206, 206);
+  font-weight: 500;
 }
 .stats {
-  font-size: 12px;
+  font-size: 16px;
   list-style: none;
   display: flex;
   padding: 0;
@@ -45,19 +61,26 @@
 }
 
 .stats li {
-  border: 1px solid gray;
+  border: 1px solid gainsboro;
   width: calc(100% / 3);
   height: 100%;
-  padding: 20px;
+  padding: 25px 10px;
+  box-sizing: border-box;
+  background-color: rgb(246, 248, 250);
+  text-align: center;
 }
 
 .label {
   text-align: center;
-  font-size: 12px;
+  font-size: 16px;
+  font-weight: 500;
   display: block;
+  color: rgb(199, 206, 206);
+  margin-bottom: 5px;
 }
 .quantity {
-  font-size: 12px;
+  font-size: 18px;
+  font-weight: 500;
   display: block;
   text-align: center;
 }

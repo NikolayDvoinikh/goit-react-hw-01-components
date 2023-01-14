@@ -11,12 +11,15 @@ export const App = () => {
   return (
     <div
       style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
+        // height: '100vh',
+        // display: 'flex',
+        // flexDirection: 'column',
+        // flexWrap: 'wrap',
+        // justifyContent: 'center',
+        // alignItems: 'center',
+        // fontSize: 40,
         color: '#010101',
+        backgroundColor: 'rgb(226, 241, 241)',
       }}
     >
       <Profile
