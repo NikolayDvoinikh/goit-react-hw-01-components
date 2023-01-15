@@ -2,24 +2,16 @@ import PropTypes from 'prop-types';
 import css from './FriendList.module.css';
 
 export default function FriendList({ friends }) {
-  return (
-    <ul>
-      {friends.map(({ avatar, name, isOnline, id }) => (
-        <li key={id} className={css.item}>
-          <span
-            className={`${css.status} ${isOnline ? css.online : css.offline}`}
-          ></span>
-          <img
-            className={css.avatar}
-            src={avatar}
-            alt="User avatar"
-            width="48"
-          />
-          <p className={css.name}>{name}</p>
-        </li>
-      ))}
-    </ul>
-  );
+  const userFriendsList = friends.map(({ avatar, name, isOnline, id }) => (
+    <li key={id} className={css.item}>
+      <span
+        className={`${css.status} ${isOnline ? css.online : css.offline}`}
+      ></span>
+      <img className={css.avatar} src={avatar} alt="User avatar" width="48" />
+      <p className={css.name}>{name}</p>
+    </li>
+  ));
+  return <ul>{userFriendsList}</ul>;
 }
 
 FriendList.propTypes = {
@@ -31,4 +23,7 @@ FriendList.propTypes = {
       id: PropTypes.number.isRequired,
     })
   ),
+};
+FriendList.defaultProps = {
+  friends: [],
 };
