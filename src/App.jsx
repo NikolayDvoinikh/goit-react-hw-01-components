@@ -11,6 +11,7 @@ export const App = () => {
   return (
     <div
       style={{
+        padding: '40px 0',
         // height: '100vh',
         // display: 'flex',
         // flexDirection: 'column',

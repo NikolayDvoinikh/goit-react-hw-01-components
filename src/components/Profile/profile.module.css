@@ -4,6 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  box-sizing: border-box;
   border-radius: 5px;
   padding: 40px 0 0;
   border: 2px solid gainsboro;
@@ -11,7 +12,6 @@
   width: 300px;
   background-color: #ffffff;
   margin-bottom: 40px;
-  margin-top: 40px;
 }
 .description {
   display: flex;

@@ -1,0 +1,33 @@
+.transaction-history {
+  border: 1px solid rgb(207, 199, 199);
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.75);
+  width: 100%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-spacing: 0;
+}
+thead > tr {
+  text-transform: uppercase;
+}
+th,
+td {
+  border: 1px solid rgb(207, 199, 199);
+  padding: 10px 0;
+  width: calc(100% / 3);
+}
+thead {
+  background-color: rgb(177, 231, 245);
+}
+tbody {
+  background-color: #fff;
+}
+tr:nth-child(even) {
+  background-color: rgb(232, 244, 245);
+}
+
+td:first-child::first-letter {
+  text-transform: uppercase;
+}

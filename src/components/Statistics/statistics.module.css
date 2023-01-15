@@ -5,12 +5,10 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 500px;
+  max-width: 500px;
   background-color: #fff;
   margin-bottom: 40px;
   box-sizing: border-box;
-  border: 1px solid transparent;
-  border-radius: 0 0 5px 5px;
 }
 .title {
   color: rgb(64, 70, 70);
@@ -24,18 +22,21 @@
   justify-content: center;
   list-style: none;
   padding: 0;
-  width: 500px;
+  max-width: 500px;
+  width: 100%;
   margin-bottom: 0;
   margin-top: 0;
 }
+
 .item {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   width: calc(100% / 5);
-  padding: 10px;
+  padding: 10px 8px;
 }
+
 .label {
   color: blueviolet;
   text-align: center;

@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import css from './statistics.module.css';
 
 const randomColor = () =>
-  '#' + Math.floor(Math.random() * 16777215).toString(16);
+  `#${Math.floor(Math.random() * 16777215).toString(16)}`;
 
 export default function Statistics({ title, stats }) {
   return (

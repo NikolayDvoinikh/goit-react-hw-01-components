@@ -1,0 +1,49 @@
+ul {
+  padding: 0;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 320px;
+}
+.status {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  border-radius: 50%;
+  background-position: center;
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
+.online {
+  background-color: green;
+}
+
+.offline {
+  background-color: red;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 5px;
+  border: 1px solid rgb(207, 199, 199);
+  margin: 5px;
+  border-radius: 3px;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.75);
+  background-color: #fff;
+}
+.avatar {
+  padding: 5px;
+  border: 1px solid rgb(207, 199, 199);
+  width: 65px;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: 500;
+}
