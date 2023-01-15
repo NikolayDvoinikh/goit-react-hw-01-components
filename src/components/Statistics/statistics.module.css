@@ -9,6 +9,7 @@
   background-color: #fff;
   margin-bottom: 40px;
   box-sizing: border-box;
+  border-radius: 0 0 5px 5px;
 }
 .title {
   color: rgb(64, 70, 70);
@@ -35,6 +36,13 @@
   flex-direction: column;
   width: calc(100% / 5);
   padding: 10px 8px;
+}
+.item:first-child {
+  border-radius: 0 0 0 5px;
+}
+
+.item:last-child {
+  border-radius: 0 0 5px 0;
 }
 
 .label {
